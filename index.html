@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Carter | Creative Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span>A</span>lex<span>C</span>arter
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-word title-word-1">Creating</span>
+                <span class="title-word title-word-2">Digital</span>
+                <span class="title-word title-word-3">Experiences</span>
+            </h1>
+            <p class="hero-subtitle">Web Developer & UI/UX Designer</p>
+            <div class="hero-btns">
+                <a href="#work" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="https://via.placeholder.com/400x500" alt="Alex Carter" class="profile-img">
+                <div class="image-overlay"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Designing with passion while exploring the world.</h3>
+                <p>I'm a creative web developer and designer with over 5 years of experience building digital experiences that matter. My approach combines technical expertise with artistic vision to deliver solutions that are both functional and beautiful.</p>
+                <p>When I'm not coding or designing, you can find me hiking mountains, capturing moments with my camera, or experimenting with new cooking recipes.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="127">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="89">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/400x500" alt="About Alex" class="about-img">
+                    <div class="image-border"></div>
+                    <div class="image-dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work/Portfolio Section -->
+    <section id="work" class="portfolio">
+        <div class="section-header">
+            <h2 class="section-title">My <span>Work</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="app">App UI</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <h3>E-commerce Website</h3>
+                            <p>Modern online store with custom CMS</p>
+                            <a href="#" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <h3>Fitness App</h3>
+                            <p>Mobile application for workout tracking</p>
+                            <a href="#" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item" data-category="branding">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <h3>Coffee Brand</h3>
+                            <p>Complete branding package</p>
+                            <a href="#" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 4 -->
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 4">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <h3>Travel Blog</h3>
+                            <p>Interactive travel experience</p>
+                            <a href="#" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 5 -->
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 5">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <h3>Finance Dashboard</h3>
+                            <p>Personal finance management tool</p>
+                            <a href="#" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Item 6 -->
+            <div class="portfolio-item" data-category="branding">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 6">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <h3>Tech Startup</h3>
+                            <p>Corporate identity design</p>
+                            <a href="#" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-cta">
+            <p>Want to see more of my work?</p>
+            <a href="#" class="btn btn-primary">View Full Portfolio</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>Technical Expertise</h3>
+                    <p>I've honed my skills through years of practical experience and continuous learning. My toolkit includes both design and development technologies, allowing me to handle projects from concept to completion.</p>
+                    <div class="skills-progress">
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>UI/UX Design</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>HTML/CSS</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="98"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-icons">
+                    <h3>Technologies I Use</h3>
+                    <div class="icons-grid">
+                        <div class="icon-item" data-tooltip="Adobe XD">
+                            <i class="fab fa-adobe"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="Figma">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="Photoshop">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="Git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="icon-item" data-tooltip="Sass">
+                            <i class="fab fa-sass"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's talk about your project</h3>
+                <p>I'm currently available for freelance work. If you have a project you'd like to discuss or just want to say hello, feel free to reach out!</p>
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>hello@alexcarter.design</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="underline"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>A</span>lex<span>C</span>arter
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2023 Alex Carter. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
